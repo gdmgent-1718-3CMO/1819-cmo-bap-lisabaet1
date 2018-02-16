@@ -4,7 +4,7 @@
 - name: Home
   description: Home
   # folder: pages/
-  permalink: /index 
+  permalink: / 
   # fa-icon: icon-info
 
 - name: Logo
@@ -16,7 +16,7 @@
 - name: Kleur
   description: Kleur
   folder: pages/kleur/
-  permalink: kleur/
+  permalink: kleur/i
   # fa-icon: icon-info
 
 - name: Styleguide
