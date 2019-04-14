@@ -1,0 +1,591 @@
+/* import voor nieuwe font-variabelen */
+@import url('https://fonts.googleapis.com/css?family=Mandali|Open+Sans:400,400i,600,600i,700');
+
+/* variabelen voor de fonts */
+$fontset1: 'Mandali',
+sans-serif;
+$fontset2: 'Open Sans',
+sans-serif;
+
+/* variabelen voor de kleuren */
+$colorOR: #E22A13;
+$colorW: #FFFFFF;
+$colorDB: #192c38;
+
+/* breekpunt instellen voor van mobile naar screen */
+$breekpunt: 560px;
+$breekpuntsm: 768px;
+$breekpuntmd: 992px;
+$breekpuntlg: 1200px;
+
+/* via een universele selector gaan we alles aanspreken */
+* {
+    font-family: $fontset2;
+    font-size: 22px;
+    line-height: 2rem;
+    color: $colorDB;
+}
+
+body {
+    background-color: $colorW;
+}
+
+.active {
+    border: 2px solid $colorW;
+    border-radius: 20px;
+}
+
+/* Downloadknopjes */
+.download {
+    border: 2px solid $colorOR;
+    border-radius: 30px;
+    padding-left: 24px;
+    padding-right: 24px;
+    color: $colorOR;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.download:hover {
+    background-color: $colorOR;
+    color: $colorW;
+    text-decoration: none;
+}
+
+.download:active {
+    background-color: $colorDB;
+}
+
+/* Navigatie */
+.navbar-header {
+
+    a {
+        font-family: $fontset2;
+        font-size: 24px;
+    }
+}
+
+.navbar-home {
+    background-color: $colorOR;
+
+    a {
+        color: $colorW;
+        font-size: 20px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    a:hover {
+        text-decoration: none;
+        font-style: italic;
+    }
+}
+
+/* header */
+.header-home-fl {
+    background-color: $colorOR;
+    color: $colorW;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 100px;
+    border-bottom-left-radius: 300px;
+
+    h1 {
+        font-family: $fontset1;
+        font-size: 92px;
+        padding-bottom: 20px;
+        color: $colorW;
+    }
+
+    h2 {
+        font-family: $fontset2;
+        font-size: 40px;
+        color: $colorW;
+    }
+}
+
+/* INDEX */
+
+.pegasusdrongen {
+    padding-top: 140px;
+    padding-bottom: 200px;
+
+    h3 {
+        font-family: $fontset2;
+        font-weight: 600;
+        line-height: 2.5rem;
+        font-size: 40px;
+        color: $colorOR;
+    }
+
+    h7 {
+        color: $colorOR;
+        font-style: italic;
+        padding-top: 50px;
+    }
+}
+
+
+/* LOGO */
+
+.gebruiklogo {
+    padding-top: 140px;
+    padding-bottom: 100px;
+
+    h3 {
+        font-family: $fontset2;
+        font-weight: 600;
+        line-height: 2.5rem;
+        font-size: 40px;
+        color: $colorOR;
+    }
+}
+
+.logos {
+
+    h4 {
+        font-size: 26px;
+        padding-top: 30px;
+        font-style: italic;
+        padding-left: 10px;
+    }
+
+    p {
+        font-size: 20px;
+        padding-right: 22px;
+        padding-left: 10px;
+        font-style: italic;
+    }
+
+    border-radius: 20px;
+}
+
+.logos_txt_container {
+    padding-bottom: 120px;
+}
+
+.gebruiklogo {
+    padding-top: 100px;
+}
+
+.vrijeruimte {
+    padding-top: 120px;
+    padding-bottom: 240px;
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 60px;
+    }
+
+    h3 {
+        font-family: $fontset2;
+        font-weight: 600;
+        line-height: 2.5rem;
+        font-size: 40px;
+        color: $colorOR;
+    }
+}
+
+.mingrootte {
+    padding-bottom: 120px;
+
+    .img {
+        width: 100%;
+    }
+
+    h5 {
+        font-family: $fontset2;
+        font-size: 22px;
+        line-height: 2rem;
+        color: $colorDB;
+    }
+
+    h3 {
+        font-family: $fontset2;
+        font-weight: 600;
+        line-height: 2.5rem;
+        font-size: 40px;
+        padding-bottom: 40px;
+        color: $colorOR;
+    }
+}
+
+.donts {
+    padding-bottom: 200px;
+
+    h3 {
+        font-family: $fontset2;
+        font-weight: 600;
+        font-size: 40px;
+        padding-bottom: 40px;
+        color: $colorOR;
+    }
+
+    p {
+        padding-bottom: 20px;
+        font-size: 20px;
+        padding-top: 20px;
+        padding-left: 10px;
+        font-style: italic;
+    }
+
+    .img {
+        width: 100%;
+    }
+
+    .donts_image_container {
+        padding-top: 40px;
+    }
+
+    .dont8 {
+        .img {
+            border-radius: 20px;
+        }
+    }
+}
+
+
+/* KLEUR */
+.kleurlogo {
+    padding-top: 140px;
+    padding-bottom: 200px;
+
+    h3 {
+        font-family: $fontset2;
+        font-weight: 600;
+        line-height: 2.5rem;
+        font-size: 40px;
+        color: $colorOR;
+    }
+
+    .img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 80px;
+        max-width: 100%;
+    }
+}
+
+
+/* TYPOGRAFIE */
+.typografie {
+    padding-top: 140px;
+    padding-bottom: 30px;
+
+    h3 {
+        font-family: $fontset2;
+        font-weight: 600;
+        line-height: 2.5rem;
+        font-size: 40px;
+        color: $colorOR;
+    }
+
+    .col-typo {
+        padding-bottom: 80px;
+    }
+
+}
+
+.hierarchie {
+    h3 {
+        font-family: $fontset2;
+        font-weight: 600;
+        line-height: 2.5rem;
+        font-size: 40px;
+        color: $colorOR;
+        padding-bottom: 30px;
+    }
+
+    .img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 80px;
+        padding-bottom: 200px;
+        max-width: 100%;
+    }
+
+}
+
+/* ELEMENTEN */
+.elementen {
+    padding-top: 140px;
+    padding-bottom: 200px;
+
+    h3 {
+        font-family: $fontset2;
+        font-weight: 600;
+        line-height: 2.5rem;
+        font-size: 40px;
+        color: $colorOR;
+    }
+
+    .img {
+        padding-top: 80px;
+        max-width: 100%;
+    }
+}
+
+.patroon {
+    padding-top: 20px;
+    padding-bottom: 200px;
+
+    h3 {
+        font-family: $fontset2;
+        font-weight: 600;
+        line-height: 2.5rem;
+        font-size: 40px;
+        color: $colorOR;
+    }
+
+    .img {
+        padding-top: 80px;
+        max-width: 100%;
+    }
+}
+
+/* FOTOGRAFIE */
+.fotografie {
+    padding-top: 140px;
+    padding-bottom: 90px;
+
+    h3 {
+        font-family: $fontset2;
+        font-weight: 600;
+        line-height: 2.5rem;
+        font-size: 40px;
+        color: $colorOR;
+    }
+
+    .img {
+        padding-top: 80px;
+        max-width: 100%;
+    }
+}
+
+.grafisch {
+
+    h3 {
+        font-family: $fontset2;
+        font-weight: 600;
+        line-height: 2.5rem;
+        font-size: 40px;
+        color: $colorOR;
+    }
+
+    .img {
+        padding-bottom: 40px;
+        max-width: 100%;
+    }
+}
+
+.foto-inhoud {
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+    .img {
+        max-width: 100%;
+        border-radius: 20px;
+        margin-top: 34px;
+    }
+
+    h3 {
+        font-family: $fontset2;
+        font-weight: 600;
+        line-height: 2.5rem;
+        font-size: 40px;
+        color: $colorOR;
+    }
+}
+
+/* TOEPASSINGEN */
+.print {
+    padding-top: 140px;
+    padding-bottom: 90px;
+
+    .container {
+        padding-top: 30px;
+    }
+
+
+    .image {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+        border-radius: 40px;
+    }
+
+    .middle {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .container2:hover .image {
+        opacity: 0.3;
+    }
+
+    .container2:hover .middle {
+        opacity: 1;
+    }
+
+    .text {
+        background-color: $colorOR;
+        color: white;
+        font-size: 22px;
+        padding: 4px 40px;
+        border-radius: 60px;
+    }
+
+    h3 {
+        font-family: $fontset2;
+        font-weight: 600;
+        line-height: 2.5rem;
+        font-size: 40px;
+        color: $colorOR;
+    }
+
+    .text:hover {
+        text-decoration: none;
+    }
+}
+
+.digitaal {
+    padding-top: 140px;
+    padding-bottom: 90px;
+
+    .container {
+        padding-top: 30px;
+    }
+
+
+    .image {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+        border-radius: 40px;
+    }
+
+    .middle {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .container2:hover .image {
+        opacity: 0.3;
+    }
+
+    .container2:hover .middle {
+        opacity: 1;
+    }
+
+    .text {
+        background-color: $colorOR;
+        color: white;
+        font-size: 22px;
+        padding: 4px 40px;
+        border-radius: 60px;
+    }
+
+    h3 {
+        font-family: $fontset2;
+        font-weight: 600;
+        line-height: 2.5rem;
+        font-size: 40px;
+        color: $colorOR;
+    }
+
+    .text:hover {
+        text-decoration: none;
+    }
+}
+
+/* FOLDER */
+.folder {
+    padding-top: 140px;
+    padding-bottom: 90px;
+
+    h3 {
+        font-family: $fontset2;
+        font-weight: 600;
+        line-height: 2.5rem;
+        font-size: 40px;
+        color: $colorOR;
+    }
+
+    .img {
+        max-width: 100%;
+        border-radius: 60px;
+        margin-bottom: 120px;
+    }
+
+    h8 {
+        font-family: $fontset2;
+        font-weight: 600;
+        line-height: 2.5rem;
+        font-size: 30px;
+        color: $colorOR;
+        font-style: italic;
+    }
+
+    p {
+        padding-bottom: 20px;
+    }
+}
+
+/* FOOTER */
+.page-footer {
+    background-color: $colorOR;
+    padding-top: 70px;
+    padding-bottom: 50px;
+
+    .img {
+        height: 80px;
+        width: auto;
+        padding-left: 10px;
+    }
+
+    h6 {
+        font-family: $fontset2;
+        color: $colorW;
+        font-size: 18px;
+        padding-bottom: 16px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    p {
+        font-family: $fontset2;
+        color: $colorW;
+        font-size: 14px;
+        line-height: 1rem;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .artevelde {
+        .img {
+            padding-left: 40%;
+        }
+    }
+}

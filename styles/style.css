@@ -1,0 +1,563 @@
+/* import voor nieuwe font-variabelen */
+@import url("https://fonts.googleapis.com/css?family=Mandali|Open+Sans:400,400i,600,600i,700");
+/* variabelen voor de fonts */
+/* variabelen voor de kleuren */
+/* breekpunt instellen voor van mobile naar screen */
+/* via een universele selector gaan we alles aanspreken */
+* {
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+  line-height: 2rem;
+  color: #192c38;
+}
+
+body {
+  background-color: #FFFFFF;
+}
+
+.active {
+  border: 2px solid #FFFFFF;
+  border-radius: 20px;
+}
+
+/* Downloadknopjes */
+.download {
+  border: 2px solid #E22A13;
+  border-radius: 30px;
+  padding-left: 24px;
+  padding-right: 24px;
+  color: #E22A13;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.download:hover {
+  background-color: #E22A13;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.download:active {
+  background-color: #192c38;
+}
+
+/* Navigatie */
+.navbar-header a {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+}
+
+.navbar-home {
+  background-color: #E22A13;
+}
+
+.navbar-home a {
+  color: #FFFFFF;
+  font-size: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.navbar-home a:hover {
+  text-decoration: none;
+  font-style: italic;
+}
+
+/* header */
+.header-home-fl {
+  background-color: #E22A13;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 100px;
+  border-bottom-left-radius: 300px;
+}
+
+.header-home-fl h1 {
+  font-family: "Mandali", sans-serif;
+  font-size: 92px;
+  padding-bottom: 20px;
+  color: #FFFFFF;
+}
+
+.header-home-fl h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+
+/* INDEX */
+.pegasusdrongen {
+  padding-top: 140px;
+  padding-bottom: 200px;
+}
+
+.pegasusdrongen h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  line-height: 2.5rem;
+  font-size: 40px;
+  color: #E22A13;
+}
+
+.pegasusdrongen h7 {
+  color: #E22A13;
+  font-style: italic;
+  padding-top: 50px;
+}
+
+/* LOGO */
+.gebruiklogo {
+  padding-top: 140px;
+  padding-bottom: 100px;
+}
+
+.gebruiklogo h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  line-height: 2.5rem;
+  font-size: 40px;
+  color: #E22A13;
+}
+
+.logos {
+  border-radius: 20px;
+}
+
+.logos h4 {
+  font-size: 26px;
+  padding-top: 30px;
+  font-style: italic;
+  padding-left: 10px;
+}
+
+.logos p {
+  font-size: 20px;
+  padding-right: 22px;
+  padding-left: 10px;
+  font-style: italic;
+}
+
+.logos_txt_container {
+  padding-bottom: 120px;
+}
+
+.gebruiklogo {
+  padding-top: 100px;
+}
+
+.vrijeruimte {
+  padding-top: 120px;
+  padding-bottom: 240px;
+}
+
+.vrijeruimte img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+}
+
+.vrijeruimte h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  line-height: 2.5rem;
+  font-size: 40px;
+  color: #E22A13;
+}
+
+.mingrootte {
+  padding-bottom: 120px;
+}
+
+.mingrootte .img {
+  width: 100%;
+}
+
+.mingrootte h5 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+  line-height: 2rem;
+  color: #192c38;
+}
+
+.mingrootte h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  line-height: 2.5rem;
+  font-size: 40px;
+  padding-bottom: 40px;
+  color: #E22A13;
+}
+
+.donts {
+  padding-bottom: 200px;
+}
+
+.donts h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  padding-bottom: 40px;
+  color: #E22A13;
+}
+
+.donts p {
+  padding-bottom: 20px;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 10px;
+  font-style: italic;
+}
+
+.donts .img {
+  width: 100%;
+}
+
+.donts .donts_image_container {
+  padding-top: 40px;
+}
+
+.donts .dont8 .img {
+  border-radius: 20px;
+}
+
+/* KLEUR */
+.kleurlogo {
+  padding-top: 140px;
+  padding-bottom: 200px;
+}
+
+.kleurlogo h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  line-height: 2.5rem;
+  font-size: 40px;
+  color: #E22A13;
+}
+
+.kleurlogo .img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
+  max-width: 100%;
+}
+
+/* TYPOGRAFIE */
+.typografie {
+  padding-top: 140px;
+  padding-bottom: 30px;
+}
+
+.typografie h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  line-height: 2.5rem;
+  font-size: 40px;
+  color: #E22A13;
+}
+
+.typografie .col-typo {
+  padding-bottom: 80px;
+}
+
+.hierarchie h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  line-height: 2.5rem;
+  font-size: 40px;
+  color: #E22A13;
+  padding-bottom: 30px;
+}
+
+.hierarchie .img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
+  padding-bottom: 200px;
+  max-width: 100%;
+}
+
+/* ELEMENTEN */
+.elementen {
+  padding-top: 140px;
+  padding-bottom: 200px;
+}
+
+.elementen h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  line-height: 2.5rem;
+  font-size: 40px;
+  color: #E22A13;
+}
+
+.elementen .img {
+  padding-top: 80px;
+  max-width: 100%;
+}
+
+.patroon {
+  padding-top: 20px;
+  padding-bottom: 200px;
+}
+
+.patroon h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  line-height: 2.5rem;
+  font-size: 40px;
+  color: #E22A13;
+}
+
+.patroon .img {
+  padding-top: 80px;
+  max-width: 100%;
+}
+
+/* FOTOGRAFIE */
+.fotografie {
+  padding-top: 140px;
+  padding-bottom: 90px;
+}
+
+.fotografie h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  line-height: 2.5rem;
+  font-size: 40px;
+  color: #E22A13;
+}
+
+.fotografie .img {
+  padding-top: 80px;
+  max-width: 100%;
+}
+
+.grafisch h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  line-height: 2.5rem;
+  font-size: 40px;
+  color: #E22A13;
+}
+
+.grafisch .img {
+  padding-bottom: 40px;
+  max-width: 100%;
+}
+
+.foto-inhoud {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.foto-inhoud .img {
+  max-width: 100%;
+  border-radius: 20px;
+  margin-top: 34px;
+}
+
+.foto-inhoud h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  line-height: 2.5rem;
+  font-size: 40px;
+  color: #E22A13;
+}
+
+/* TOEPASSINGEN */
+.print {
+  padding-top: 140px;
+  padding-bottom: 90px;
+}
+
+.print .container {
+  padding-top: 30px;
+}
+
+.print .image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  border-radius: 40px;
+}
+
+.print .middle {
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.print .container2:hover .image {
+  opacity: 0.3;
+}
+
+.print .container2:hover .middle {
+  opacity: 1;
+}
+
+.print .text {
+  background-color: #E22A13;
+  color: white;
+  font-size: 22px;
+  padding: 4px 40px;
+  border-radius: 60px;
+}
+
+.print h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  line-height: 2.5rem;
+  font-size: 40px;
+  color: #E22A13;
+}
+
+.print .text:hover {
+  text-decoration: none;
+}
+
+.digitaal {
+  padding-top: 140px;
+  padding-bottom: 90px;
+}
+
+.digitaal .container {
+  padding-top: 30px;
+}
+
+.digitaal .image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  border-radius: 40px;
+}
+
+.digitaal .middle {
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.digitaal .container2:hover .image {
+  opacity: 0.3;
+}
+
+.digitaal .container2:hover .middle {
+  opacity: 1;
+}
+
+.digitaal .text {
+  background-color: #E22A13;
+  color: white;
+  font-size: 22px;
+  padding: 4px 40px;
+  border-radius: 60px;
+}
+
+.digitaal h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  line-height: 2.5rem;
+  font-size: 40px;
+  color: #E22A13;
+}
+
+.digitaal .text:hover {
+  text-decoration: none;
+}
+
+/* FOLDER */
+.folder {
+  padding-top: 140px;
+  padding-bottom: 90px;
+}
+
+.folder h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  line-height: 2.5rem;
+  font-size: 40px;
+  color: #E22A13;
+}
+
+.folder .img {
+  max-width: 100%;
+  border-radius: 60px;
+  margin-bottom: 120px;
+}
+
+.folder h8 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  line-height: 2.5rem;
+  font-size: 30px;
+  color: #E22A13;
+  font-style: italic;
+}
+
+.folder p {
+  padding-bottom: 20px;
+}
+
+/* FOOTER */
+.page-footer {
+  background-color: #E22A13;
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+.page-footer .img {
+  height: 80px;
+  width: auto;
+  padding-left: 10px;
+}
+
+.page-footer h6 {
+  font-family: "Open Sans", sans-serif;
+  color: #FFFFFF;
+  font-size: 18px;
+  padding-bottom: 16px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.page-footer p {
+  font-family: "Open Sans", sans-serif;
+  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 1rem;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.page-footer .artevelde .img {
+  padding-left: 40%;
+}
+/*# sourceMappingURL=style.css.map */
